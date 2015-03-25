@@ -17,3 +17,10 @@ def caesar_cipher(secret_message, shift_factor)
 	end
 	encoded_message
 end
+
+=begin
+TEST CASES:
+puts caesar_cipher("test GH _ run, z", 0)
+puts caesar_cipher("test GH _ run, z", 2)
+puts caesar_cipher("test GH _ run, z", 28)
+=end
